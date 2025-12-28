@@ -1,0 +1,14 @@
+/* React App CSS - Minimal overrides */
+.App {
+  min-height: 100vh;
+}
+
+/* Override default React styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
