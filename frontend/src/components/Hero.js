@@ -15,7 +15,7 @@ function Hero() {
               <div className="hero-text">
                 <h1>Project<span className="accent-text">Whiz</span></h1>
                 <h2>Matthew Whisonant</h2>
-                <p className="lead">I'm a <span className="typed" data-typed-items="UI/UX Designer, Web Developer, Brand Strategist, Creative Director"></span></p>
+                <p className="lead">I'm a <span className="typed" data-typed-items="UI/UX Designer, Web Developer, Automation Engineer, Business Enthusiast"></span></p>
                 <p className="description">Passionate about creating exceptional digital experiences that blend innovative design with functional development. Let's bring your vision to life.</p>
 
                 <div className="hero-actions">

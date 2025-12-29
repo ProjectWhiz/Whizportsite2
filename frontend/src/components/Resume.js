@@ -5,7 +5,7 @@ function Resume() {
     <section id="resume" className="resume section">
       <div className="container section-title" data-aos="fade-up">
         <h2>Resume</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <p>Project-driven software developer with experience building secure, user-focused applications across web, automation, and tooling. Strong background in Python-based systems, frontend development, and solving real operational problems under technical and security constraints.</p>
       </div>
 
       <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -17,7 +17,7 @@ function Resume() {
               </div>
 
               <h3>Professional Summary</h3>
-              <p>Driven software architect with expertise in developing scalable, high-performance enterprise solutions. Passionate about leveraging cutting-edge technologies to solve complex business challenges.</p>
+              <p>Software developer with hands-on experience building practical, real-world applications ranging from secure internal tooling to production-ready websites. Strong focus on automation, usability, and problem-solving, with experience working under operational, security, and budget constraints.</p>
 
               <h3 className="mt-4">Contact Information</h3>
               <ul className="contact-info list-unstyled">
@@ -41,7 +41,7 @@ function Resume() {
 
                 <div className="skill-item">
                   <div className="d-flex justify-content-between">
-                    <span>UI/UX Design</span>
+                    <span>Workflow Creation</span>
                     <span>85%</span>
                   </div>
                   <div className="progress">
@@ -51,7 +51,7 @@ function Resume() {
 
                 <div className="skill-item">
                   <div className="d-flex justify-content-between">
-                    <span>Cloud Architecture</span>
+                    <span>Backend Development</span>
                     <span>90%</span>
                   </div>
                   <div className="progress">
@@ -74,62 +74,68 @@ function Resume() {
 
           <div className="col-lg-8 ps-4 ps-lg-5">
             <div className="resume-section" data-aos="fade-up">
-              <h3><i className="bi bi-briefcase me-2"></i>Professional Experience</h3>
+              <h3><i className="bi bi-briefcase me-2"></i>Project Experience</h3>
 
               <div className="resume-item">
-                <h4>Senior Software Architect</h4>
-                <h5>2022 - Present</h5>
-                <p className="company"><i className="bi bi-building"></i> Tech Innovations Inc.</p>
+                <h4>Inv10 Secure Sample</h4>
+                {/*<h5>2022 - Present</h5>*/}
+                {/*<p className="company"><i className="bi bi-building"></i> US Air Force</p>*/}
                 <ul>
-                  <li>Lead the architectural design and implementation of enterprise-scale applications</li>
-                  <li>Mentor team of 12 developers and establish technical best practices</li>
-                  <li>Drive adoption of microservices architecture and cloud-native solutions</li>
-                  <li>Reduce system downtime by 75% through improved architecture and monitoring</li>
+                  <li>Designed and built an automated inventory setup tool for classified weapons vault operations, reducing setup time from half a workday to minutes</li>
+                  <li>Improved inventory workflow efficiency by enabling teams to begin inventories a full day earlier</li>
+                  <li>Addressed OPSEC and IA constraints by packaging the application as a restricted executable using PyInstaller</li>
+                  <li>Preserved original document formatting while generating inventory-ready Excel, CSV, and PDF outputs</li>
                 </ul>
               </div>
 
               <div className="resume-item">
-                <h4>Lead Developer</h4>
-                <h5>2019 - 2022</h5>
-                <p className="company"><i className="bi bi-building"></i> Digital Solutions Corp.</p>
+                <h4>Web Scraper & Discord Bot</h4>
+                {/*<h5>2019 - 2022</h5>*/}
+                {/*<p className="company"><i className="bi bi-building"></i> Digital Solutions Corp.</p>*/}
                 <ul>
-                  <li>Spearheaded development of company's flagship product reaching 1M+ users</li>
-                  <li>Implemented CI/CD pipeline reducing deployment time by 60%</li>
-                  <li>Managed team of 8 developers across multiple projects</li>
-                  <li>Increased code test coverage from 45% to 90%</li>
+                  <li>Built a web scraping tool to monitor product listings and pricing on retail websites</li>
+                  <li>Implemented command-based scraping via Discord to enable easy, free usage without a GUI</li>
+                  <li>Structured output to provide product name, price, and direct links with preview support</li>
+                  <li>Designed both a terminal-based workflow and a Discord bot interface for wider accessibility</li>
                 </ul>
               </div>
             </div>
 
             <div className="resume-section" data-aos="fade-up" data-aos-delay="100">
-              <h3><i className="bi bi-mortarboard me-2"></i>Education</h3>
+              <h3><i className="bi bi-mortarboard me-2"></i>Experience</h3>
 
               <div className="resume-item">
-                <h4>Master of Science in Computer Science</h4>
-                <h5>2017 - 2019</h5>
-                <p className="company"><i className="bi bi-building"></i> Stanford University</p>
-                <p>Specialized in Artificial Intelligence and Machine Learning. Graduated with honors.</p>
-              </div>
-
-              <div className="resume-item">
-                <h4>Bachelor of Science in Software Engineering</h4>
-                <h5>2013 - 2017</h5>
-                <p className="company"><i className="bi bi-building"></i> MIT</p>
-                <p>Dean's List all semesters. Led university's coding club.</p>
+                <h4>Experience Highlights</h4>
+                {/*<h5>2017 - 2019</h5>*/}
+                {/*<p className="company"><i className="bi bi-building"></i> MIT</p>*/}
+                <ul>
+                  <li>Built and deployed multiple real-world applications from concept to production</li>
+                  <li>Designed automation tools that reduced manual setup time and improved workflow efficiency</li>
+                  <li>Collaborated directly with clients and stakeholders to refine requirements in real time</li>
+                  <li>Delivered production ready systems under time, budget, and security constraints</li>
+                </ul>
               </div>
             </div>
 
             <div className="resume-section" data-aos="fade-up" data-aos-delay="200">
-              <h3><i className="bi bi-award me-2"></i>Certifications</h3>
+              <h3><i className="bi bi-award me-2"></i>Additional Projects</h3>
 
               <div className="resume-item">
-                <h4>AWS Certified Solutions Architect - Professional</h4>
-                <h5>2023</h5>
+                <h4>MaximizeYourCDC</h4>
+                <h5>Practice testing platform for U.S. Airmen with analytics-driven study insights</h5>
+                {/*<h5>2023</h5>*/}
               </div>
 
               <div className="resume-item">
-                <h4>Google Cloud Professional Architect</h4>
-                <h5>2022</h5>
+                <h4>XEqualSafe</h4>
+                <h5>Grid-based strategy game featuring adaptive AI behavior using reinforcement learning concepts</h5>
+                {/*<h5>2023</h5>*/}
+              </div>
+
+              <div className="resume-item">
+                <h4>Secure Messaging App</h4>
+                <h5>Encrypted group chat application using key-value validation for secure message access</h5>
+                {/*<h5>2023</h5>*/}
               </div>
             </div>
           </div>

@@ -46,8 +46,8 @@ function About() {
               </div>
 
               <div className="description">
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+                <p>I enjoy working at the intersection of design and engineering—solving real problems, refining user flows, and delivering products that feel polished and purposeful. Every project is an opportunity to improve how people interact with technology.</p>
+                <p>Whether I’m working on a small feature or a full application, I focus on clarity, reliability, and long-term value. I believe good software should feel simple—even when the work behind it isn’t.</p>
               </div>
 
               <div className="stats-grid">
@@ -69,21 +69,21 @@ function About() {
                 <div className="detail-row">
                   <div className="detail-item">
                     <span className="detail-label">Specialization</span>
-                    <span className="detail-value">UI/UX Design &amp; Development</span>
+                    <span className="detail-value">Automation &amp; Workflow Development</span>
                   </div>
                   <div className="detail-item">
                     <span className="detail-label">Experience Level</span>
-                    <span className="detail-value">Senior Professional</span>
+                    <span className="detail-value">Mid-Level Professional</span>
                   </div>
                 </div>
                 <div className="detail-row">
                   <div className="detail-item">
                     <span className="detail-label">Education</span>
-                    <span className="detail-value">Computer Science, MIT</span>
+                    <span className="detail-value">Fully Self Taught</span>
                   </div>
                   <div className="detail-item">
-                    <span className="detail-label">Languages</span>
-                    <span className="detail-value">English, Spanish, French</span>
+                    <span className="detail-label">Core Strengths</span>
+                    <span className="detail-value">Problem Solving, System Design, Clean Architecture</span>
                   </div>
                 </div>
               </div>

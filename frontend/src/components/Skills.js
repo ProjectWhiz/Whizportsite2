@@ -16,13 +16,13 @@ function Skills() {
               <div className="skills-animation">
                 <div className="skill-item">
                   <div className="d-flex justify-content-between align-items-center">
-                    <h4>HTML/CSS</h4>
+                    <h4>Python</h4>
                     <span className="skill-percentage">95%</span>
                   </div>
                   <div className="progress">
                     <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
-                  <div className="skill-tooltip">Expert level knowledge of semantic HTML5 and modern CSS3 techniques</div>
+                  <div className="skill-tooltip">Python development with Django and data analysis tools</div>
                 </div>
 
                 <div className="skill-item">
@@ -67,13 +67,13 @@ function Skills() {
 
                 <div className="skill-item">
                   <div className="d-flex justify-content-between align-items-center">
-                    <h4>Python</h4>
+                    <h4>Flask</h4>
                     <span className="skill-percentage">70%</span>
                   </div>
                   <div className="progress">
                     <div className="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
-                  <div className="skill-tooltip">Python development with Django and data analysis tools</div>
+                  <div className="skill-tooltip">Flask development focused on scalable backend systems</div>
                 </div>
 
                 <div className="skill-item">

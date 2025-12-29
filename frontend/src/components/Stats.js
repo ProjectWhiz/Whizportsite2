@@ -11,7 +11,7 @@ function Stats() {
                 <div className="icon-wrapper">
                   <i className="bi bi-emoji-smile"></i>
                 </div>
-                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" className="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" className="purecounter"></span>
                 <p>Happy Clients</p>
               </div>
 
@@ -19,15 +19,15 @@ function Stats() {
                 <div className="icon-wrapper">
                   <i className="bi bi-journal-richtext"></i>
                 </div>
-                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" className="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" className="purecounter"></span>
                 <p>Projects</p>
               </div>
 
-              <div className="stats-item" data-aos="zoom-in" data-aos-delay="250">
+              <div className="stats-item" data-aos="zoom-in" data-aos-delay="1000">
                 <div className="icon-wrapper">
                   <i className="bi bi-headset"></i>
                 </div>
-                <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" className="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" className="purecounter"></span>
                 <p>Hours Of Support</p>
               </div>
 
@@ -35,7 +35,7 @@ function Stats() {
                 <div className="icon-wrapper">
                   <i className="bi bi-people"></i>
                 </div>
-                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" className="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" className="purecounter"></span>
                 <p>Hard Workers</p>
               </div>
             </div>
