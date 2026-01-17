@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -12,6 +12,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     // Load vendor scripts
     const loadScript = (src) => {
@@ -27,7 +29,8 @@ function App() {
         script.onload = resolve;
         script.onerror = (error) => {
           console.error(`Failed to load script: ${src}`, error);
-          reject(error);
+          // Resolve anyway to prevent blocking
+          resolve();
         };
         document.body.appendChild(script);
       });
@@ -56,8 +59,17 @@ function App() {
             mirror: false
           });
         }
+        
+        // Hide preloader after a short delay
+        setTimeout(() => {
+          setLoading(false);
+        }, 500);
       } catch (error) {
         console.error('Error loading scripts:', error);
+        // Still hide preloader even if scripts fail
+        setTimeout(() => {
+          setLoading(false);
+        }, 500);
       }
     };
 
@@ -89,8 +101,8 @@ function App() {
         <i className="bi bi-arrow-up-short"></i>
       </a>
 
-      {/* Preloader */}
-      <div id="preloader"></div>
+      {/* Preloader - Only show while loading */}
+      {loading && <div id="preloader"></div>}
     </div>
   );
 }
